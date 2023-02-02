@@ -56,6 +56,7 @@ body {
         font-style: normal;
         font-weight: 900;
         font-size: 40px;
+        text-align: center;
         line-height: 44px;
         color: #28283D;
     }
@@ -69,6 +70,7 @@ body {
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
+        text-align: center;
         line-height: 26px;
         color: #87879D;
     }
