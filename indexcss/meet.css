@@ -1,8 +1,8 @@
 body {
     font-family: 'Red Hat Display', sans-serif;
-    background: #F2F2F2;
     position: absolute;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -90,6 +90,7 @@ body {
         bottom: 0%;
         background: #4D96A9;
         border-radius: 29px;
+        border-width: 0px;
     }
     .button1:hover{
         background: #71C0D4;
@@ -138,8 +139,7 @@ body {
         bottom: 0%;
         background: #855FB1;
         border-radius: 29px;
-        border-left-width: 0px;        
-        border-right-width: 0px;        
+        border-width: 0px;    
     }
     .button2:hover{
         background: #B18BDD;
@@ -194,6 +194,7 @@ body {
         height: 56px;
         left: -27px;
         top: 42px;
+        z-index: 1;
     }
     .boxid {
         position: absolute;
@@ -382,6 +383,7 @@ body {
         background: #855FB1;
         border-radius: 29px;
         display: flex;
+        border-width: 0px;
     }
     .button3:hover{
         background: #B18BDD;
@@ -555,6 +557,7 @@ body {
         bottom: 0%;
         background: #4D96A9;
         border-radius: 29px;
+        border-width: 0px;
     }
     .button1:hover{
         background: #71C0D4;
@@ -603,8 +606,7 @@ body {
         bottom: 0%;
         background: #855FB1;
         border-radius: 29px;
-        border-left-width: 0px;        
-        border-right-width: 0px;        
+        border-width: 0px;       
     }
     .button2:hover{
         background: #B18BDD;
@@ -658,7 +660,8 @@ body {
         width: 56px;
         height: 56px;
         left: -27px;
-        top: 42px
+        top: 42px;
+        z-index: 1;
     }
     .boxid {
         position: absolute;
@@ -839,6 +842,7 @@ body {
         background: #855FB1;
         border-radius: 29px;
         display: flex;
+        border-width: 0px;
     }
     .button3:hover{
         background: #B18BDD;
@@ -1015,6 +1019,7 @@ body {
         bottom: 0%;
         background: #4D96A9;
         border-radius: 29px;
+        border-width: 0px;
     }
     .button1:hover{
         background: #71C0D4;
@@ -1062,8 +1067,7 @@ body {
         bottom: 0%;
         background: #855FB1;
         border-radius: 29px;
-        border-left-width: 0px;        
-        border-right-width: 0px;        
+        border-width: 0px;
     }
     .button2:hover{
         background: #B18BDD;
@@ -1117,7 +1121,8 @@ body {
         width: 56px;
         height: 56px;
         left: -27px;
-        top: 42px
+        top: 42px;
+        z-index: 1;
     }
     .boxid {
         position: absolute;
@@ -1312,6 +1317,7 @@ body {
         background: #855FB1;
         border-radius: 29px;
         display: flex;
+        border-width: 0px;
     }
     .button3:hover{
         background: #B18BDD;
