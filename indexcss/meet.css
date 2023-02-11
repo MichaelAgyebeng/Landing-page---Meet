@@ -228,7 +228,8 @@ body {
     .footer {
         position: relative;
         top: -28px;
-        background: url('../assets/mobile/image-footer.jpg');
+        background-size: cover;
+        background-image: url('../assets/mobile/image-footer.jpg');
     }
     
     .button3 {
@@ -502,7 +503,8 @@ body {
     .footer {
         position: relative;
         top: -28px;
-        background: url('../assets/tablet/image-footer.jpg');
+        background-size: cover;
+        background-image: url('../assets/tablet/image-footer.jpg');
     }
     
     .button3 {
@@ -789,7 +791,8 @@ body {
     .footer {
         position: relative;
         top: -68px;
-        background: url('../assets/desktop/image-footer.jpg');
+        background-size: cover;
+        background-image: url('../assets/desktop/image-footer.jpg');
     }
     
     .button3 {
