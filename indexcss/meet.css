@@ -1,5 +1,5 @@
 body {
-    font-family: 'Red Hat Display', sans-serif;
+    font-family: 'Red Hat Display';
     margin:  auto  auto;
     position: relative;
 }
@@ -81,7 +81,7 @@ body {
 
     .download1 {
         font-style: normal;
-        font-weight: 500;
+        font-weight: 900;
         font-size: 16px;
         margin-top: auto;
         margin-bottom: auto;
@@ -94,7 +94,7 @@ body {
         right: 20.73%;
         top: calc(50% - 26px/2);
         font-style: normal;
-        font-weight: 500;
+        font-weight: 900;
         font-size: 16px;
         line-height: 26px;
         color: #8FE3F9;
@@ -243,6 +243,17 @@ body {
         background: #B18BDD;
         cursor: pointer;
     }
+    .version2 {
+        height: 26px;
+        left: 63.73%;
+        right: 20.73%;
+        top: calc(50% - 26px/2);
+        font-style: normal;
+        font-weight: 900;
+        font-size: 16px;
+        line-height: 26px;
+        color: #D9B8FF;
+    }
 
     .group6 {
         display: flex;
@@ -277,7 +288,7 @@ body {
 
 
 
-@media only screen and (min-width: 768px)and (max-width: 1439.5px){
+@media only screen and (min-width: 767.5px){
     .meet-img {
         margin: 30px auto 30px auto;
         display: block;
@@ -354,7 +365,7 @@ body {
 
     .download1 {
         font-style: normal;
-        font-weight: 500;
+        font-weight: 900;
         font-size: 16px;
         margin-top: auto;
         margin-bottom: auto;
@@ -367,7 +378,7 @@ body {
         right: 20.73%;
         top: calc(50% - 26px/2);
         font-style: normal;
-        font-weight: 500;
+        font-weight: 900;
         font-size: 16px;
         line-height: 26px;
         color: #8FE3F9;
@@ -393,7 +404,7 @@ body {
         margin-top: auto;
         margin-bottom: auto;
         font-style: normal;
-        font-weight: 500;
+        font-weight: 900;
         font-size: 16px;
         text-align: center;
         color: #FFFFFF;
@@ -519,6 +530,18 @@ body {
         cursor: pointer;
     }
 
+    .version2 {
+        height: 26px;
+        left: 63.73%;
+        right: 20.73%;
+        top: calc(50% - 26px/2);
+        font-style: normal;
+        font-weight: 900;
+        font-size: 16px;
+        line-height: 26px;
+        color: #D9B8FF;
+    }
+
     .group6 {
         display: flex;
         flex-direction: column;
@@ -558,7 +581,7 @@ body {
 
 
 
-@media only screen and (min-width: 1440px){
+@media only screen and (min-width: 1439.5px){
     .meet-img {
         margin: 50px auto 50px auto;
         display: block;
@@ -566,6 +589,7 @@ body {
 
     .threetinz {
         display: flex;
+        flex-direction: row-reverse;
         justify-content: space-between;
         gap: 40px;
         margin: 50px auto 0px auto;
@@ -628,6 +652,7 @@ body {
     .group-button1 {
         width: 193px;
         height: 58px;
+        align-self: center;
     }
     .button1 {
         width: 193px;
@@ -643,7 +668,7 @@ body {
 
     .download1 {
         font-style: normal;
-        font-weight: 500;
+        font-weight: 900;
         font-size: 16px;
         margin-top: auto;
         margin-bottom: auto;
@@ -656,7 +681,7 @@ body {
         right: 20.73%;
         top: calc(50% - 26px/2);
         font-style: normal;
-        font-weight: 500;
+        font-weight: 900;
         font-size: 16px;
         line-height: 26px;
         color: #8FE3F9;
@@ -682,7 +707,7 @@ body {
         margin-top: auto;
         margin-bottom: auto;
         font-style: normal;
-        font-weight: 500;
+        font-weight: 900;
         font-size: 16px;
         text-align: center;
         color: #FFFFFF;
@@ -806,9 +831,21 @@ body {
         background: #B18BDD;
         cursor: pointer;
     }
+    .version2 {
+        height: 26px;
+        left: 63.73%;
+        right: 20.73%;
+        top: calc(50% - 26px/2);
+        font-style: normal;
+        font-weight: 900;
+        font-size: 16px;
+        line-height: 26px;
+        color: #D9B8FF;
+    }
 
     .group6 {
         display: flex;
+        flex-direction: row;
         justify-content: space-evenly;
         margin: auto;
         text-align: left;
